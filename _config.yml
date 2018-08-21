@@ -6,8 +6,8 @@
 # Site
 title: Emiling
 subtitle: Altiora Petamus
-description: Undergraduate student Computer Engineering
-author: Lee Eugene
+description: KUCE17/developer(expected)
+author: Eugene
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
 date_format: '%Y-%m-%d'
@@ -135,7 +135,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: fort-awesome
-  about: smile
+  about: grin-alt
   categories: list-ul
   schedule: calendar
   tags: tags
@@ -151,8 +151,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -193,7 +193,7 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family: Hi Melody
+    family: Nanum Gothic
     size: 25px
 
   # Font settings for <code> and code blocks.
@@ -226,9 +226,8 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
-  Facebook: facebook-square
+  GitHub: https://github.com/emiling
+  Facebook: http://facebook.com/devuginx
 
 
 # Sidebar Avatar
