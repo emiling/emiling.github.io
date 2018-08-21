@@ -6,7 +6,7 @@
 # Site
 title: Emiling
 subtitle: Altiora Petamus
-description: test 
+description: Undergraduate student Computer Engineering
 author: Lee Eugene
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -90,7 +90,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: star
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -134,12 +134,12 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  home: home
-  about: user
-  categories: th
+  home: fort-awesome
+  about: smile
+  categories: list-ul
   schedule: calendar
   tags: tags
-  archives: archive
+  archives: history
   sitemap: sitemap
   commonweal: heartbeat
 
@@ -174,32 +174,32 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Nanum Gothic
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
-  headings:
+  headings: 
     external: true
-    family:
+    family: Hi Melody
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Nanum Gothic
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: Hi Melody
+    size: 25px
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Nanum Gothic Coding
     size:
 
 
@@ -228,7 +228,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  Facebook: facebook-square
 
 
 # Sidebar Avatar
@@ -274,16 +274,16 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: false
 
 
-# Blog rolls
-#links_title: Links
+# Blog rolls(주석 처리 할 것)
+links_title: Links
 #links_layout: block
-#links_layout: inline
+links_layout: inline
 #links:
   #Title: http://example.com/
 
@@ -353,7 +353,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
