@@ -6,7 +6,7 @@
 # Site
 title: Emiling
 subtitle: Altiora Petamus
-description: KUCE17/developer(expected)
+description: KUCE17 이유진 (20/고졸)
 author: Eugene
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2018
 
 # icon between year and author @Footer
 authoricon: star
@@ -152,8 +152,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -180,7 +180,7 @@ font:
   # Fallback to `global` font settings.
   headings: 
     external: true
-    family: Hi Melody
+    family: Poor Story
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -213,8 +213,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  Github: https://github.com/emiling
+  Facebook: http://facebook.com/devuginx
 
 
 # Social Links Icons
@@ -226,9 +227,8 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/emiling
-  Facebook: http://facebook.com/devuginx
-
+  GitHub: github 
+  Facebook: facebook-square
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
@@ -269,7 +269,7 @@ sidebar:
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
-  offset: 12
+  offset: 20
   offset_float: 0
 
   # Back to top in sidebar
