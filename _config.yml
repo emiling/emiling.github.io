@@ -6,7 +6,7 @@
 # Site
 title: Emiling
 subtitle: Altiora Petamus
-description: KUCE17 이유진 (20/고졸)
+description: KUCSE17 이유진(20세/고졸/백수)
 author: Eugene
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
@@ -40,8 +40,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
-highlight:
-  line_number: true
+highlight: 
+  line_number: false
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
@@ -216,6 +216,7 @@ font:
 social:
   Github: https://github.com/emiling
   Facebook: http://facebook.com/devuginx
+  Baekjoon: https://www.acmicpc.net/user/emiling
 
 
 # Social Links Icons
@@ -229,6 +230,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github 
   Facebook: facebook-square
+  Baekjoon: edit
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
@@ -380,7 +382,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname:
+  shortname: emiling
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
