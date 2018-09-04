@@ -35,6 +35,7 @@ Request URL이 주황색으로 밑줄 친 부분이고, Request Method가 POST �
 실제 github에 올린 코드에서는 `config.ini` 파일 안에 로그인시 필요한 학번과 비밀번호를 적고 `configparser`를 이용하여 .ini파일을 불러온 뒤 파싱하도록 했다.
 
 그리고 header의 경우 `'Content-Type': 'application/x-www-form-urlencoded'`과 `'User-Agent'`를 명시하여 적었다.  
+(special thanks to Sunyeop Lee)
 처음에 'Content-Type'을 제대로 명시하지 않아 실수했던 부분이고, [이 곳](https://gist.github.com/jays1204/703297eb0da1facdc454)이 많은 도움이 되었다.  
 
 그리고 `url encoding`도 함께 해주어야 한다면, `urllib`의 `qiote`를 이용할 것.  
@@ -135,4 +136,5 @@ loop.run_until_complete(asyncio.wait(tasks))
 1. 모바일 패킷 따서 하는 것도 괜찮았을 것 같다.
 2. 생각했던 것 보다 코드가 느리다. Beautiful Soup 사용해서 그런 것 같은데 시간 날 때 원인 분석 좀 해봐야 겠다.
 3. 개선해서 위치 추적하고 다음날 0시 전까지 기숙사 아니면 자동으로 외박 신청해주는 것... 만들면 괜찮을 것 같다.
+
 
